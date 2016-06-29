@@ -1,0 +1,154 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: grey;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+
+.wrap {
+  background: lightgrey;
+  width: 1040px;
+  overflow: auto;
+}
+
+/*Nav Bar styling*/
+
+.navbarBig {
+    background:lightgreen;
+    list-style: none;
+}
+
+.library {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.symbol {
+  float: right;
+}
+
+.arrow {
+  float: right;
+}
+
+.notes {
+  float: right;
+}
+
+.cf {
+  clear: both;
+}
+
+/*Div Stylings*/
+
+.java {
+  background: yellow;
+  width: 500px;
+  float: left;
+}
+
+.django {
+  background: orange;
+  width: 500px;
+  float: right;
+}
+
+.wordpress {
+  background: skyblue;
+  width: 500px;
+  float: left;
+}
+
+.javaFX {
+  background: lightgreen;
+  width: 500px;
+  float: right;
+}
+
+/*Subject Class Styling*/
+
+.subject {
+  margin: 10px;
+  background: white;
+  border-radius: 5px;
+}
+
+.navbar {
+  background: mediumspringgreen;
+  height: 30px;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.buttons {
+  list-style: none;
+  border: lightgrey;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+}
+
+.courseName {
+  float: left;
+  border: 1px solid lightgrey;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.skillLevel {
+  float: left;
+  border: 1px solid lightgrey;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.nextArrow {
+  float: right;
+  border: 1px solid lightgrey;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.star {
+  float: right;
+  border: 1px solid lightgrey;
+  border-radius: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.text {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 50px;
+}
+
+.text p {
+  width: 400px;
+  word-wrap: break-word;
+}
+/*Buttons Styling*/
+
+.bookIcon {
+  float: left;
+}
+
+.timeLength {
+  float: right;
+}
+
+.courseLengthDotsIcon {
+  float: left;
+  padding: 2px;
+  padding-left: 15px;
+}
