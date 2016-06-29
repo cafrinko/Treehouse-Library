@@ -175,3 +175,23 @@ body, html {
 .word-nav {
   background: skyblue;
 }
+
+.points {
+  float: right;
+}
+
+.profile {
+  float: right;
+}
+
+.caret {
+  float: right;
+}
+
+.rightArrow {
+  float: right;
+}
+
+.notifications {
+  float: right;
+}
