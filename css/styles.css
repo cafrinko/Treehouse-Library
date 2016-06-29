@@ -76,6 +76,8 @@ body, html {
   margin: 10px;
   background: white;
   border-radius: 5px;
+
+
 }
 
 .navbar {
@@ -122,9 +124,9 @@ body, html {
 .star {
   float: right;
   border: 1px solid lightgrey;
-  border-radius: 30px;
-  padding: 5px;
-  margin: 5px;
+  border-radius: 100%;
+  padding: 10px;
+  /*margin: 5px;*/
 }
 
 .text {
@@ -145,10 +147,31 @@ body, html {
 
 .timeLength {
   float: right;
+  padding: 5px;
+  font-weight: bold;
 }
 
 .courseLengthDotsIcon {
   float: left;
   padding: 2px;
   padding-left: 15px;
+}
+
+.text h5 {
+  color: grey;
+}
+
+.play {
+  float: right;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.django-nav {
+  background: tomato;
+}
+
+.word-nav {
+  background: skyblue;
 }
